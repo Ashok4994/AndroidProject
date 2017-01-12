@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#F0F4C3"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College of Arts, Commerce And Law"
+                android:textSize="25dp"
+                android:textColor="#f60b0b" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/activity_horizontal_margin"
+                android:text="1.M.A. Economics\n
+2.M.A Rural Development\n
+3.M.A Political Science\n
+4.M.A Public Administration\n
+5.M.A Sociology\n
+6.M.S.W (Master of Social Work)\n
+7.M.A History\n
+8.M.A Ancient History And Archaeology\n
+10.M.A Telugu\n
+11.M.A Sanskrit\n
+12.M.A English\n
+13.M.A Hindi\n
+14.M.Com\n
+15.M.B.A\n
+16.M.B.A (International Business)\n
+17.M.B.A (Hospital Administration)\n
+18.M.H.R.M\n
+19.M.T.T.M(Master of Tourism and Travel Management)\n
+20.LL.M\n
+21.M.A Journalism And Mass Communication\n
+22.M.Ed.,\n
+23.P.G. Diploma in Ambedkar Studies
+ "
+                android:textColor="#132ef5" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College of Engineering And Technology"
+                android:textSize="25dp"
+                android:textColor="#f60b0b"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#132ef5"
+                android:textSize="@dimen/activity_horizontal_margin"
+                android:text="1.B.Tech (ECE)\n
+2.B.Tech (CSE)\n
+3.B.Tech (Civil)\n
+4.B.Tech (ME)\n
+5.B.Tech (EEE)\n
+6.M.Tech (CSE)\n
+7.M.Tech (ECE)"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College of Architecture and Planning"
+
+                android:textSize="25dp"
+                android:textColor="#f60b0b"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.B.Arch"
+
+                android:textSize="@dimen/activity_horizontal_margin"
+                android:textColor="#132ef5"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College of Sciences"
+
+                android:textSize="25dp"
+                android:textColor="#f60b0b"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="1.M.Sc. Aquaculture\n
+2.M.Sc Bio-chemistry\n
+3.M.Sc. Biotechnology\n
+4.M.Tech Biotechnology\n
+5.M.Sc.Botany	\n
+6.M.Sc.Chemistry	\n
+7.M.Sc.Electronics and Instrumentation Technology\n
+8.M.Sc.Environmental Sciences\n
+9.M.Sc.Foods and Nutritional Science\n
+10.M.Sc.Geology\n
+11.M.C.A. 	\n
+12.M.Sc.Mathematics\n
+13.M.Sc.Microbiology\n
+14.M.Sc.Nano-Biotechnology\n
+15.M.Sc.Nano-Technology\n
+16.M.Sc.Physics\n
+17.M.Sc.Statistics\n
+18.M.Sc.Statistics(QR and OR)\n
+19.M.Sc.Zoology   "
+                android:textSize="@dimen/activity_horizontal_margin"
+                android:textColor="#132ef5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College of Physical Education and Sports Sciences"
+
+                android:textSize="25dp"
+                android:textColor="#f60b0b"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/activity_horizontal_margin"
+                android:text="1.B.P.Ed	\n
+2.M.P.Ed	\n
+3.P.G. Diploma in Yoga for Human Excellence (Regular)\n
+4.P.G. Diploma in Yoga for Human Excellence (Part Time)\n"
+                android:textColor="#132ef5"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

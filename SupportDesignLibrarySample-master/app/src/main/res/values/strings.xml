@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">A.N.U</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">Sample Android Design Support Library App</string>
+
+    <string name="floating_labels">Floating Labels</string>
+    <string name="fab">Floating Action Button</string>
+    <string name="snackbar">Snackbar</string>
+    <string name="tabs">Tabs</string>
+    <string name="coordinator">Coordinator Layout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="maps"><a href="https://www.google.co.in/maps/dir/''/acharya+nagarjuna+university+google+map/@16.3759896,80.4574781,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x3a35f437274e79ab:0x92aff133741cd6de!2m2!1d80.5275186!2d16.3760012">GET DIRECTIONS</a></string>
+    <string name="economics"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1012">1.Economics</a></string>
+    <string name="english"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1015">2.English</a></string>
+    <string name="histry"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1020">3.History and Archaeology</a></string>
+    <string name="BusinessStudies"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1046">4.International Business Studies </a></string>
+    <string name="LifeLongLearning"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1045">5.Life Long Learning(Adult Education)   </a></string>
+    <string name="MahayanaBuddhistStudies"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1023">6.Mahayana Buddhist Studies  </a></string>
+    <string name="PoliticalScience"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1029">7.Political Science and Public Administration   </a></string>
+    <string name="Sociology"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1032">8.Sociology</a></string>
+    <string name="Tourism"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1039">9.Tourism And Hospitality Management</a></string>
+    <string name="Commerce"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1007">10.Commerce and Business Administration</a></string>
+    <string name="Education"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1013">11.Education</a></string>
+    <string name="Hindi"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1019">12.Hindi</a></string>
+    <string name="HRM"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1004">13.HRM</a></string>
+    <string name="Journalism"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1021">14.Journalism And Mass Communication</a></string>
+    <string name="M.B.A.HospitalAdministration"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1009">15.M.B.A.Hospital Administration</a></string>
+    <string name="P.G.DepartmentofLegalStudies"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1026">16.P.G.Department of Legal Studies</a></string>
+    <string name="RuralDevelopment"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1030">17.Rural Development</a></string>
+    <string name="TeluguandSanskrit"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1034">18.Telugu and Sanskrit</a></string>
+    <string name="CSE"><a href="http://www.nagarjunauniversity.ac.in/edeptdet.php?id=1051">1.Computer Science and Engineering</a></string>
+    <string name="ECE"><a href="http://www.nagarjunauniversity.ac.in/edeptdet.php?id=1053">2.Electronics and Communication Engineering</a></string>
+    <string name="CIVIL"><a href="http://www.nagarjunauniversity.ac.in/edeptdet.php?id=1050">3.CIVIL Engineering </a></string>
+    <string name="ElectricalandElectronicEngineering"><a href="http://www.nagarjunauniversity.ac.in/edeptdet.php?id=1052">4.Electrical and Electronic Engineering</a></string>
+    <string name="MechanicalEngineering"><a href="http://www.nagarjunauniversity.ac.in/edeptdet.php?id=1054">5.Mechanical Engineering</a></string>
+    <string name="maps1"><a href="https://www.google.co.in/maps/dir/''/acharya+nagarjuna+university+google+map/@16.3759896,80.4574781,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x3a35f437274e79ab:0x92aff133741cd6de!2m2!1d80.5275186!2d16.3760012">GET DIRECTIONS</a></string>
+    <string name="BioChemistry"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1002">1.BioChemistry</a></string>
+    <string name="Botany"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1005">2.Botany </a></string>
+    <string name="EnvironmentalScience"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1016">3.Environmental Science   </a></string>
+    <string name="Geology"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1018">4.Geology</a></string>
+    <string name="Microbiology"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1025">5.Microbiology </a></string>
+    <string name="Physics"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1028">6.Physics</a></string>
+    <string name="Zoology"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1036">7.Zoology And Aquaculture   </a></string>
+    <string name="Biotechnology"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1003">8.Biotechnology</a></string>
+    <string name="Chemistry"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1006">9.Chemistry</a></string>
+    <string name="ElectronicsinstrumentationTechnology"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1044">10.Electronics And Instrumentation Technology </a></string>
+    <string name="FoodsandNutritionalScience"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1017">11.Foods and Nutritional Science   </a></string>
+    <string name="Mathematics"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1024">12.Mathematics</a></string>
+    <string name="NanoTechnology"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1040">13.NanoTechnology </a></string>
+    <string name="Statistics"><a href="http://www.nagarjunauniversity.ac.in/deptdet.php?id=1033">14.Statistics</a></string>
+    <string name="sports"><a href="http://www.nagarjunauniversity.ac.in/phyedudepartment.php">ANU College of Physical Education And Sports</a></string>
+    <string name="pharmacy"><a href="http://www.nagarjunauniversity.ac.in/pharmdepartment.php">ANU College of Pharmaceutical Science</a></string>
+    <string name="barch"><a href="http://www.nagarjunauniversity.ac.in/aboutcoap.php">ANU College of Architecture And Planning</a></string>
+</resources>

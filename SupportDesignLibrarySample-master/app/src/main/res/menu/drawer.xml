@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_labels"
+            android:title="Administration"/>
+
+        <item
+            android:id="@+id/gal"
+            android:title="Gallery"/>
+
+    </group>
+    <item android:title="Btech">
+
+        <menu>
+            <item android:id="@+id/prf" android:icon="@android:drawable/ic_menu_send"
+                android:title="PROFILE" />
+            <item android:id="@+id/cse" android:icon="@android:drawable/ic_menu_send"
+                android:title="CSE" />
+
+            <item android:id="@+id/ece" android:icon="@android:drawable/ic_menu_send"
+                android:title="ECE" />
+            <item android:id="@+id/civil" android:icon="@android:drawable/ic_menu_send"
+                android:title="CIVIL" />
+            <item android:id="@+id/eee" android:icon="@android:drawable/ic_menu_send"
+                android:title="EEE" />
+            <item android:id="@+id/mech" android:icon="@android:drawable/ic_menu_send"
+                android:title="MECH" />
+        </menu>
+    </item>
+    <item android:title="Database">
+        <menu>
+            <item android:id="@+id/stlgn" android:icon="@android:drawable/ic_menu_send"
+                android:title="Login" />
+
+
+        </menu>
+    </item>
+
+</menu>

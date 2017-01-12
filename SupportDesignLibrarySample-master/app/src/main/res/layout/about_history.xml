@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#FFECB3"
+
+    android:backgroundTintMode="multiply">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:paddingTop="10dp"
+                android:src="@drawable/a1"
+                android:transitionName="hi"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Want to Listen..?"
+                android:layout_marginLeft="50dp"
+                android:id="@+id/bspeak"
+                android:background="#2b0303"
+                android:textColor="#FFECB3"
+                android:layout_gravity="center_horizontal" />
+
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:id="@+id/bstp"
+
+                android:layout_gravity="right"
+                android:background="@drawable/audio3" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/activity_horizontal_margin"
+
+                android:text="        The name, Nagarjuna University is quite significant in that the great Buddhist preceptor and Philosopher Acharya Nagarjuna, founded a University on the banks of river Krishna,some centuries ago and made it a great centre of learning, attracting a large number of teachers and students form distant parts of the world.The University was established by Act 43 of 1976 of A.P. State Legislature and Governed by Act 4 of 1991 covering 6 Universities of the State. The present Acharya Nagarjuna University is not very far from the haloed spot, as it derives its moral and intellectual sustenance from Acharya Nagarjuna in which context the University has been renamed Acharya Nagarjuna University through the A.P. Universities (Amendment) Ordinance, 2004, promulgated by the Governor of Andhra Pradesh.\n           The aspirations of the southern coastal districts of Andhra Pradesh to pursue Post-Graduate education nearer their homes resulted in the establishment of Acharya Nagarjuna University. In 1976, Andhra University started a Post-Graduate Centre in Nallapadu, Guntur Dt., Andhra Pradesh, as an Extension Center to cater to the needs of higher education of the people of this region. It is in the fitness of things that a University should grow from this Center to fulfill the desire of the people of this belt. Accordingly, Nagarjuna University came into being in August 1976."
+                android:id="@+id/textView2"
+                android:textColor="#0c0cf6" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

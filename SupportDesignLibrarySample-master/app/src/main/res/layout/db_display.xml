@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="#D7CCC8">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome,"
+        android:id="@+id/textView"
+        android:textColor="#E91E63"
+        android:layout_below="@+id/TVusername"
+
+        android:layout_marginTop="91dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#4CAF50"
+        android:text=" "
+        android:id="@+id/TVusername" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E91E63"
+        android:paddingTop="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="Your attendance is 75 percent " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E91E63"
+        android:paddingTop="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="Your Percentage is 85 percent "/>
+</LinearLayout>

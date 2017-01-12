@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingTop="50dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/i15">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="The college is established in the academic year 2009-2010 in the University campus under the able leader ship of the  Vice-chancellor, Prof. Hara Gopal Reddy a visionary academician."
+                android:textColor="@color/background_material_light"
+                android:layout_alignParentTop="true"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView10" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Vision : "
+                android:id="@+id/textView9"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_below="@+id/textView10"
+
+                android:textColor="#83eb64"
+                android:layout_marginLeft="10dp"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" A.N.U. College of Engineering And Technology is started with an aim of imparting technical values in the students,  who can change the shape of global scenario in engineering arena."
+                android:id="@+id/textView24"
+                android:layout_below="@+id/textView9"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/background_material_light" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mission:"
+                android:layout_marginLeft="10sp"
+                android:textColor="#83eb64"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:textSize="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/background_material_light"
+                android:text="To educate students for careers of leadership and innovation in engineering and related fields. To expand  the base of engineering knowledge through original research and by developing technology to serve the needs of society."/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Infrasturcture"
+                android:textSize="30dp"
+
+                android:textColor="#83eb64" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The college provides uncompromising infrastructural facilities to cater to the instructional needs of the students:\n * 1, 00,000sq.ft area building to accom-    modate future development.\n
+* Wi-Fi connectivity between buildings.\n
+* Labs are equipped with IBM machi-nes and Routers, switches and modems.\n
+* Modernization of engineering work-
+  shop around 9000sq.ft.\n
+* Spacious, well structured    classrooms.\n
+* Drawing hall\n
+* Conference room"
+                android:textSize="20dp"
+                android:textColor="@color/background_material_light"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Computer Center"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#83eb64" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* The unique feature of our college is the well equipped CPM laboratory, which has all licensed software's required for the stipulated courses.\n
+* The college offers free Internet facilities to both students and staff in order to browse additional information related to curriculum and pursue  research activity.\n
+* The lab is provided with 80 systems, projectors."
+                android:textSize="20dp"
+
+                android:textColor="@color/background_material_light"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Language Lab:"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#83eb64" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* The language lab helps students to become confident with the communication skills by having good grip on English.\n
+* The college has set up modern Multimedia language lab, having 60 systems with latest configuration, in order to strengthen communication skills and personality development in the students.\n
+* These courses mainly consist of Phonetics and accent improvement, conversations, Interview readiness programs, mock interviews, debates and Group discussions."
+                android:textSize="20dp"
+
+                android:textColor="@color/background_material_light"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Library "
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#83eb64" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" * The library of our college is a treasure house of knowledge which hones the multi dimensional skills of the students.\n
+* It has 16,000 volumes of technical, science and management text and reference books.\n
+* 35 international technical journals.\n
+* 37 Indian journals.\n
+* Joined INDEST-AICTE consortium for subscription of Online journals/Digital library.\n
+* Further the college is planning to computerize the library administration (bar codes, theft detectors etc)."
+                android:textSize="20dp"
+
+                android:textColor="@color/background_material_light"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

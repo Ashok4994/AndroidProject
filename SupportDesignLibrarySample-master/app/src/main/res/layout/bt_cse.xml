@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:background="#B3E5FC"
+    android:paddingBottom="10dp"
+    android:paddingRight="5dp"
+    android:visibility="visible">
+
+    <ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView2">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:background="@drawable/audio"
+                android:id="@+id/b99" />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:background="@drawable/audio2"
+                android:id="@+id/b98" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+
+            android:text="      Department is offering a specialized unique program in Digital Image Processing in PG which is industry oriented. The course was structured as per the need of industries like canon, HP, Epson etc which are pioneers in color printing. Also department is offering Ph D program in different thrust areas. Department is headed by Prof E Srinivasa Reddy who has rich experience of 20 years in teaching and 10 years in research in the area of Image Processing."
+            android:textColor="#091bb7"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv99" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sanctioned Intake :  60"
+            android:id="@+id/textView16"
+            android:layout_marginTop="34dp"
+            android:textColor="#f40f0f"
+            android:textSize="30dp"
+            android:layout_below="@+id/scrollView2"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Head Of Department"
+            android:id="@+id/textView18"
+            android:layout_marginTop="34dp"
+            android:textSize="30dp"
+            android:textColor="#f40f0f"
+            android:layout_below="@+id/textView16"
+            android:layout_alignEnd="@+id/scrollView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Prof E.Srinivasa Reddy"
+            android:id="@+id/textView25"
+            android:textColor="#0d0dc7"
+            android:layout_below="@+id/textView18"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Research Activities"
+            android:textSize="30dp"
+            android:layout_marginTop="10sp"
+            android:textColor="#f40f0f"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0d0dc7"
+            android:textSize="20dp"
+            android:text="Estblishment of Big Data Lab"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FACULTY:"
+            android:textSize="30dp"
+            android:paddingTop="10dp"
+            android:textColor="#f40f0f"
+            android:layout_gravity="center"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <TableRow>
+                    <TextView
+                        android:text=" Name of Teacher "
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_register"
+                        android:textColor="#147a06" />
+                    <TextView
+                        android:text=" Designation "
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textColor="#147a06"
+                        android:background="@drawable/bg_register"
+                        />
+                    <TextView
+                        android:background="@drawable/bg_register"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textColor="#147a06"
+                        android:text=" Qualification "/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Prof E Srinivasa Reddy "
+                        android:textAlignment="center"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:text=" Professor,Dean "
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+
+                    <TextView
+                        android:text=" M.Tech.,Ph.D "
+                        android:textSize="20dp"
+                        android:textColor="#0d0dc7"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_register"/>
+
+
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" N.Anupama "
+                        android:textAlignment="center"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:text=" Asst Professor "
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+
+                    <TextView
+                        android:text=" M.Tech "
+                        android:textSize="20dp"
+                        android:textColor="#0d0dc7"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_register"/>
+
+
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Konda Chaitanya "
+                        android:textColor="#0d0dc7"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:text=" Asst Professor "
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+
+                    <TextView
+                        android:text=" M.Tech "
+                        android:textAlignment="center"
+                        android:textSize="20dp"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+
+
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Balaji Vicharapu "
+                        android:textColor="#0d0dc7"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:text="Asst Professor"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+
+                    <TextView
+                        android:text="M.Tech"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+
+
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" P.Charan "
+                        android:textColor="#0d0dc7"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:text="Asst Professor"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+
+                    <TextView
+                        android:text="M.Tech"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+
+
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" U.Sathish Kumar "
+                        android:textAlignment="center"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:text="Asst Professor"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+
+                    <TextView
+                        android:text="M.Tech"
+                        android:textAlignment="center"
+                        android:textSize="20dp"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+
+
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" P.Yugandhar Reddy "
+                        android:textColor="#0d0dc7"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:text="Asst Professor"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+
+                    <TextView
+                        android:text="M.Tech"
+                        android:textAlignment="center"
+                        android:textSize="20dp"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+
+
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:text=" Dr.S.R.Chandra Murthy "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:text="Asst Professor"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+
+                    <TextView
+                        android:text="M.Tech"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+
+
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" M.Vara Lakshmi "
+                        android:textColor="#0d0dc7"
+                        android:textAlignment="center"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:text="Asst Professor"
+                        android:textAlignment="center"
+                        android:textSize="20dp"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+
+                    <TextView
+                        android:text="M.Tech"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Structure"
+            android:textSize="30dp"
+            android:textColor="#f40f0f"
+            />
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+            <TableRow >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text=" I YEAR "
+                    android:layout_span="2"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:background="@drawable/bg_register"
+                    android:textColor="#147a06" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text=" Code "
+                    android:textSize="20dp"
+                    android:background="@drawable/bg_register"
+                    android:textColor="#147a06" />
+                <TextView
+                    android:text=" Subject "
+                    android:textSize="20dp"
+                    android:background="@drawable/bg_register"
+                    android:textColor="#147a06" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" CSE101  "
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" Mathematics-I "
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" CSE102 "
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" Mathematics-II "
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" CSE103 "
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" Engineering Physics "
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" CSE104 "
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" Engineering Chemistry "
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" CSE105 "
+                    android:layout_height="match_parent"
+                    android:textColor="#0d0dc7"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_register"/>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" Professional Communication Skills "
+
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" CSE106 "
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" C Programming "
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" CSE107 "
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" Engineering Mechanics "
+
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" CSE108 "
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" Engineering Graphics "
+
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" CSE151 "
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" Physics Lab "
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" CSE152 "
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" Chemistry Lab "
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" CSE153 "
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" Workshop Practice "
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" CSE154 "
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+                <TextView
+                    android:textSize="20dp"
+                    android:text=" C Programming Lab "
+                    android:textColor="#0d0dc7"
+                    android:background="@drawable/bg_register"/>
+            </TableRow>
+        </TableLayout>
+
+
+
+</HorizontalScrollView>
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+                <TableRow>
+                    <TextView
+                        android:text=" II YEAR I SEM "
+                        android:textSize="20dp"
+                        android:background="@drawable/bg_register"
+                        android:textColor="#147a06"
+                        android:layout_span="2"
+                        android:layout_gravity="center"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text=" Code "
+                        android:textSize="20dp"
+                        android:background="@drawable/bg_register"
+                        android:textColor="#147a06" />
+                    <TextView
+                        android:text=" Subject "
+                        android:textSize="20dp"
+                        android:background="@drawable/bg_register"
+                        android:textColor="#147a06" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE211 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Mathematics III "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE212 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Discrete Mathematical Structures "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE213 "
+                        android:layout_height="match_parent"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Basic Electrical And\n Electronics Engineering "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE214 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Digital Logic Design "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE215 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Operating Systems "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE216 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Data Structures using C "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE251 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Data Structures Lab "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE252 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" BEE Lab "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE253 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Communication Skills "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+                <TableRow>
+                    <TextView
+                        android:text=" II YEAR II SEM "
+                        android:textSize="20dp"
+                        android:layout_span="2"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bg_register"
+                        android:textColor="#147a06" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text=" Code "
+                        android:textSize="20dp"
+                        android:background="@drawable/bg_register"
+                        android:textColor="#147a06" />
+                    <TextView
+                        android:text=" Subject "
+                        android:textSize="20dp"
+                        android:background="@drawable/bg_register"
+                        android:textColor="#147a06" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE221 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Probability And Statistics "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE222 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Environmental Science "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE223 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Computer Organization "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE224 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" DBMS "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE225 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Object Oriented Programming "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE226 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" UNIX Programming"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE261"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" DBMS Lab "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE262 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" EDP Lab "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE263 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" OS Lab (UNIX based) "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+            </TableLayout>
+            </HorizontalScrollView>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+                <TableRow>
+                    <TextView
+                        android:text=" III YEAR  I SEM "
+                        android:textSize="20dp"
+                        android:layout_span="2"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bg_register"
+                        android:textColor="#147a06" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text=" Code "
+                        android:textSize="20dp"
+                        android:background="@drawable/bg_register"
+                        android:textColor="#147a06" />
+                    <TextView
+                        android:text=" Subject "
+                        android:textSize="20dp"
+                        android:background="@drawable/bg_register"
+                        android:textColor="#147a06" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE311 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Microprocessors And Microcontrollers  "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE312 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Computer Networks "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE313 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Automata Theory And Formal Languages "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE314 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Advanced Java Programming "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE 315 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Design Analysis of Algorithms "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE316 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Software Engineering "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE351 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Advanced Java Programming Lab "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE352 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Microprocessors Lab "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE353 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Computer Networks Lab "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+                <TableRow>
+                    <TextView
+                        android:text=" III YEAR  II SEM "
+                        android:textSize="20dp"
+                        android:background="@drawable/bg_register"
+                        android:textColor="#147a06"
+                        android:layout_span="2"
+                        android:layout_gravity="center"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text=" Code "
+                        android:textSize="20dp"
+                        android:background="@drawable/bg_register"
+                        android:textColor="#147a06" />
+                    <TextView
+                        android:text=" Subject "
+                        android:textSize="20dp"
+                        android:background="@drawable/bg_register"
+                        android:textColor="#147a06" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE321 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Network Security "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE322 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Compiler Design "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE323 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" OOAD   "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE324 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Artificial Intelligence "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE325 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Elective - I "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE326 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Computer Vision "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE361"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Mini Project "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE362 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Compiler Design Lab "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE363 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Computer Vision Lab "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+                <TableRow>
+                    <TextView
+                        android:text=" IV YEAR I SEM "
+                        android:textSize="20dp"
+                        android:background="@drawable/bg_register"
+                        android:textColor="#147a06"
+                        android:layout_span="2"
+                        android:layout_gravity="center"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text=" Code "
+                        android:textSize="20dp"
+                        android:background="@drawable/bg_register"
+                        android:textColor="#147a06" />
+                    <TextView
+                        android:text=" Subject "
+                        android:textSize="20dp"
+                        android:background="@drawable/bg_register"
+                        android:textColor="#147a06" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE411 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Mobile Computing "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE412 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Advanced Computer Architecture "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE413 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Distributed Systems   "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE414 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Web Technologies "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE415 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Elective-II(Open) "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE416 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Professional Ethics And human Values  "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE451 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Mobile Computing Lab  "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE452 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Web Technologies Lab "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE453 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Soft Skills Lab "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+                <TableRow>
+                    <TextView
+                        android:text=" IV YEAR  II SEM "
+                        android:textSize="20dp"
+                        android:background="@drawable/bg_register"
+                        android:layout_span="2"
+                        android:layout_gravity="center"
+                        android:textColor="#147a06" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text=" Code "
+                        android:textSize="20dp"
+                        android:background="@drawable/bg_register"
+                        android:textColor="#147a06" />
+                    <TextView
+                        android:text=" Subject "
+                        android:textSize="20dp"
+                        android:background="@drawable/bg_register"
+                        android:textColor="#147a06" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE421 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Industrial Engineering And Management"
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE422 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Machine Learning "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE423 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Data Engineering   "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE424 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Elective -II "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE425 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Elective - III "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE461 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Data Engineering Lab  "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" CSE462 "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                    <TextView
+                        android:textSize="20dp"
+                        android:text=" Project "
+                        android:textColor="#0d0dc7"
+                        android:background="@drawable/bg_register"/>
+                </TableRow>
+
+            </TableLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+</RelativeLayout>

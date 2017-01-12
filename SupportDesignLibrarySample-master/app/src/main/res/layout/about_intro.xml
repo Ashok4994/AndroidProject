@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="#FFECB3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INTRODUCTION"
+                android:textSize="25sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#f60b0b"
+                android:id="@+id/tv"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="43dp"
+                android:text=""
+                android:id="@+id/bspk2"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/audio"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/tv"
+                android:layout_toEndOf="@+id/tv" />
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="43dp"
+                    android:id="@+id/bstop"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/audio2"
+                    android:layout_alignBottom="@+id/bspk2"
+                    android:layout_toRightOf="@+id/bspk2" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="         Acharya Nagarjuna University has completed three decades of its existence. It was inaugurated on 11th September, 1976 by the former President of India, Sri Fakruddin Ali Ahmed.There have been many problems, difficulties and teething problems in its onward march.  In the course of the last 30 years, the University has successfully overcome most of the initial problems and is moving forward with determination, enthusiasm and hope.\n\n           From the corridors of a local polytechnic college in Nallapadu to the imposing buildings in Nagarjuna nagar, the road was very long.  Sacrifice, service and commitment marked the growth of Acharya Nagarjuna University.  "
+
+                android:textSize="@dimen/activity_horizontal_margin"
+
+                android:textColor="#0c0cf6"
+                android:id="@+id/tv2" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ACADEMIC PROGRESS"
+                android:paddingLeft="5dp"
+                android:textSize="25dp"
+                android:textColor="#f60b0b"
+
+
+                android:id="@+id/textView19"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/bspk3"
+                    android:layout_gravity="right"
+                    android:background="@drawable/audio"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/textView19"
+                    android:layout_toEndOf="@+id/textView19" />
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/audio2"
+                    android:id="@+id/bstp2"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          Acharya Nagarjuna University, an affiliating University established in 1976, started with only 10 post-graduate courses in the University College.  Since then, it has achieved tremendous progress through quantitative expansion and qualitative improvements on various academic fronts.  This has been possible by the efforts of its dedicated faculty, an efficient team of supporting staff and high quality student input.  The Acharya Nagarjuna University at present offers post-graduate education in 47 courses (39 on the University campus, 4 at University PG Campus at Nuzvid and 5 at University PG Campus at Ongole) besides Post-graduate courses in affiliated colleges.  "
+                android:textColor="#0c0cf6"
+                android:textSize="@dimen/activity_horizontal_margin"
+                android:id="@+id/tv3" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AFFILIATED COLLEGES"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="25dp"
+                    android:textColor="#f60b0b"
+                    android:id="@+id/textView20" />
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/bspk4"
+                    android:layout_gravity="right"
+                    android:paddingRight="50dp"
+                    android:paddingLeft="10dp"
+
+                    android:background="@drawable/audio"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/textView20"
+                    android:layout_toEndOf="@+id/textView20" />
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/audio2"
+                    android:id="@+id/bstp3"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/activity_horizontal_margin"
+                android:text="     University has got over 450 affiliated colleges in Krishna, Guntur and Prakasam Districts.Acharya Nagajuna University since then has grown into a large University with 39 Academic Departments, including several self-financed courses, which started operating since 1992. Its jurisdiction was extended to three districts now having over 450 affiliated colleges offering Under-Graduate, Post-Graduate, Engineering, Education, Law, Pharmacy and Oriental Languages courses. Now it has 39 Post-graduate teaching-cum-research courses on the campus, while 71 affiliated colleges offered P.G. courses.  The University runs two P.G. centers-one at Ongole (a fully self-financed center) and another at Nuzvid (aided).\n\n    The University has been continuously achieving progress during these 30 years, in terms of introducing new subjects in the University College.  For instance, two new P.G. courses, in Hindi, and Tourism and Travel management were introduced last year.  New courses were started from the academic year: B.P. Ed. and M.P. Ed in the department of Physical Education, while M.B.A. in Health Administration, M. Ed in the department of Education and M.Sc. in Medical Technology are jointly awarded by A.N.U. and N.T.R. University of Health Sciences.  Five year Integrated M.B.A., Programme in International Finance is started.  This University has also pioneered the introduction of self-financed courses in the country, which is in conformity with the thinking of the national education policy makers such as the University Grants Commission.  The University is making concerted efforts towards resource mobilization on different fronts.\n\n       The policy of the University is to encourage the University College and the affiliated colleges to introduce job-oriented courses at the Degree and Post-Graduate levels.  Academic autonomy was extended to four of the colleges as per the directions of the University Grants Commission, New Delhi.  The University has ensured that, while there is a need for quantitative improvement with the increasing demand for higher education, from the community at large, the quality of education offered at various levels is also maintained at a high level.  The University has been striving to maintain high academic standards in consonance with quantitative increase in the number of students being enrolled every year.\n\n         Teaching and Research are the two eyes and twin goals of the faculty in the University College.  The research programmes carried out in the various Departments cover both fundamental and applied areas.  The academic Departments seek to find a reasonable and useful balance between the world of knowledge and its use and application in a more  concrete and realizable form.  The research programmes and course content focus on these issues and attempt to find solutions, so that feedback obtained by such an interaction could be used to bridge the gap between learning and its utility value."
+                android:textColor="#0c0cf6"
+                android:id="@+id/tv4"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

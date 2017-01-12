@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#FFCDD2"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="   AMBEDKAR MEMORIAL LIBRARY             "
+        android:id="@+id/textView17"
+        android:layout_marginTop="30dp"
+        android:textColor="#E91E63"
+        android:layout_alignParentTop="true"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#303F9F"
+        android:text="              (CENTRAL LIBRARY)"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textSize="25dp"
+        android:textColor="#E91E63"
+        android:text="Name of the Librarian: "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#303F9F"
+        android:text="  Prof. K.Venkata Rao"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:paddingTop="10dp"
+        android:textColor="#E91E63"
+        android:text=" Introduction: "/>
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/audio"
+                    android:id="@+id/bspk2"/>
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/audio2"
+                    android:id="@+id/bstop"/>
+
+            </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#303F9F"
+        android:id="@+id/tv2"
+        android:text=" The Library of the Acharya Nagarjuna University was established on 19th August,1976 by upgradation of the erstwhile Andhra University P.G. Centre established in  the year 1967. The A.U.P.G Centre Library collection of 18,900 documents as on that date became the nucleus for the Acharya Nagarjuna University Library.Later in 1990, the library was renamed as “AMBEDKAR MEMORIAL LIBRARY”."/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:paddingTop="10dp"
+                android:textColor="#E91E63"
+                android:text=" Building: "/>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@drawable/audio"
+        android:id="@+id/bspk3"/>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@drawable/audio2"
+        android:id="@+id/bstp2"/>
+</LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/tv3"
+                android:textColor="#303F9F"
+                android:text=" The Library has three floors and one Cellar.  The total plinth area of the building is about 3,000 Square feet.  The main functionaries of the library are the Circulation,Periodicals, Reference, Acquisition, Binding and Technical Sections apart from the Administrative and Computers Section."/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textSize="25dp"
+                android:textColor="#E91E63"
+                android:text="  Library Staff : "/>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@drawable/audio"
+        android:id="@+id/bspk4"/>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@drawable/audio2"
+        android:id="@+id/bstp3"/>
+
+</LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#303F9F"
+                android:id="@+id/tv4"
+                android:text=" The Library is managed by University Librarian, one Deputy Librarian, one Information Scientist, one Documentation Officer and Eight Library Assistants.  More than 50 Non-Professional Staff including the administrative staff.  The include Senior Assistant, Junior Assistnt, typists, record assistants and attenders and daily wage workers and Lirary contract basis Sorters." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textSize="25dp"
+                android:textColor="#E91E63"
+                android:text=" Furniture And Equipment "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#303F9F"
+                android:text=" The library is equipped with mostly Wooden chairs and tables for seating and reading purposes, for shelving purpose mostly steel book racks with specified standards are used." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textSize="25dp"
+                android:textColor="#E91E63"
+                android:text=" Other physical facilities: "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#303F9F"
+                android:text=" *The library building is located in specious area. Adequate parking facility is available for parking all types of Vehicles.\n
+ *Round the clock protected drinking water facility is provided within the library for the sake of users and library staff." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textSize="25dp"
+                android:textColor="#E91E63"
+                android:text=" SERVICES :"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#303F9F"
+                android:text=" 1.Lending \n 2.Reference\n 3.Documentation \n 4.Reprography\n 5.Internet - Wi-Fi Connection\n 6.Access to INFLIBNET  Database\n 7.COPSAT\n 8.OCL ‘s First Search Service\n 9.Access to UGC E – Journals (List of Web-sites available)\n 10.Biological Abstract Series (DVD’s since 1969) "
+
+
+
+
+
+
+
+
+                          />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

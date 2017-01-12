@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rufflez.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/a3"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.DesignDemo">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ThirdActivity"></activity>
+        <activity android:name=".Ad_arts"></activity>
+        <activity android:name=".Ad_btech"></activity>
+        <activity android:name=".Ad_farmcy"></activity>
+        <activity android:name=".Ad_rector"></activity>
+        <activity android:name=".Ad_registrar"></activity>
+        <activity android:name=".Ad_vc"></activity>
+        <activity android:name=".Btech"></activity>
+        <activity android:name=".B_Cse"></activity>
+        <activity android:name=".B_Cvl"></activity>
+        <activity android:name=".B_Eee"></activity>
+        <activity android:name=".B_Mech"></activity>
+        <activity android:name=".B_Ece"></activity>
+        <activity android:name=".Galleryclass"></activity>
+        <activity android:name=".Db_register"></activity>
+        <activity android:name=".Db_main"></activity>
+        <activity android:name=".Db_display"></activity>
+        <activity android:name=".Db_admin"></activity>
+        <activity android:name=".Db_admn2"></activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

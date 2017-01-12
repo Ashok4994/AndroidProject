@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/accent_material_dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PRINCIPAL"
+        android:id="@+id/textView14"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#f50808" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Name : Prof. A.PRAMEELA RANI, M.Pharm, Ph.D\nPhone:-0863-2346459 (Off) \nEmail ID:drapr64@gmail.com "
+        android:id="@+id/textView15"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#0a0af9"
+        android:singleLine="false"
+        android:textIsSelectable="true"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentEnd="true"
+        android:textSize="20dp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/pharmap"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/textView15"
+        android:layout_alignEnd="@+id/textView15" />
+</RelativeLayout>
